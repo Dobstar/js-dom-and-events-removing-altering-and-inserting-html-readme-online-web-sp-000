@@ -22,4 +22,6 @@ ul.style.textAlign = 'left';
 //now to remove one of the li's:
 ul.removeChild(ul.querySelector('li:nth-child(2)'));
 
+//to remove the whole unordered list:
+
 ul.remove();
